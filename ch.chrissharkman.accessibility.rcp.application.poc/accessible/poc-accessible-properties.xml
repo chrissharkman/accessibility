@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<accessible>
+	<keybindings>
+		<!-- Global key bindings are described here: parsing would be possible extension in future -->
+		<keybinding action="focusOnNextWidget" keySequence="TAB" />
+		<keybinding action="focusOnPreviousWidget" keySequence="SHIFT+TAB" />
+		<keybinding action="focusOnNextPart" keySequence="F6" />
+		<keybinding action="focucsOnPreviousPart" keySquence="SHIFT+F6" />
+		<keybinding action="escape" keySequence="ESC" />
+	</keybindings>
+	<dialogs>
+		<!-- Possibility to set dialogs and its sequence: possible extension in future -->
+	</dialogs>
+	<!--  view tree -->
+	<perspectivestack>
+		<perspective elementId="poc.perspective.home" defaultElement="true">
+			<part elementId="poc.home.browserpart" label="Browserbereich mit Einleitung">
+				<subpart elementId="poc.browserpart.toolbar">
+					<widget elementId="poc.browserpart.toolbar.btnweb" accessibleName="Surfmodus" defaultElement="true" />
+					<widget elementId="poc.browserpart.toolbar.btnurl" accessibleName="U R L eingeben" />
+					<widget elementId="poc.browserpart.toolbar.btnTest3" accessibleName="Dieser Button kommt als drittes Element in der Tabreihenfolge und hat keine Funktion." />
+					<widget elementId="poc.browserpart.toolbar.btnTest4" accessibleName="Dieser Button kommt in der Tabreihenfolge als letztes Element und hat keine Funktion." />
+				</subpart>
+				<subpart elementId="poc.browserpart.browser" defaultTabAction="true" />
+			</part>
+		</perspective>
+		<perspective elementId="poc.perspective.main">
+			<part elementId="poc.partstack.overview.index" label="Index" defaultTabAction="true" />
+			<part elementId="poc.partstack.overview.widgets" label="Widgets" defaultTabAction="true">
+				<!-- widgets can be detailed but as defaultTabAction=true is set, this is not necessary -->
+			</part>
+			<part elementId="poc.main.browserpart">	
+				<subpart elementId="poc.browserpart.toolbar">
+					<widget elementId="poc.browserpart.toolbar.btnweb" accessibleName="Surfmodus" defaultElement="true" />
+					<widget elementId="poc.browserpart.toolbar.btnurl" accessibleName="U R L eingeben" />
+					<widget elementId="poc.browserpart.toolbar.btnTest3" accessibleName="Dieser Button kommt als drittes Element in der Tabreihenfolge und hat keine Funktion." />
+					<widget elementId="poc.browserpart.toolbar.btnTest4" accessibleName="Dieser Button kommt in der Tabreihenfolge als letztes Element und hat keine Funktion." />
+				</subpart>
+				<subpart elementId="poc.browserpart.browser" defaultTabAction="true" />
+			</part>
+		</perspective>
+		<perspective elementId="poc.perspective.imprint" >
+			<part elementId="poc.imprint.browserpart" label="Browoserbereich mit Impressum">
+				<subpart elementId="poc.browserpart.toolbar">
+					<widget elementId="poc.browserpart.toolbar.btnweb" accessibleName="Surfmodus" defaultElement="true" />
+					<widget elementId="poc.browserpart.toolbar.btnurl" accessibleName="U R L eingeben" />
+					<widget elementId="poc.browserpart.toolbar.btnTest3" accessibleName="Dieser Button kommt als drittes Element in der Tabreihenfolge und hat keine Funktion." />
+					<widget elementId="poc.browserpart.toolbar.btnTest4" accessibleName="Dieser Button kommt in der Tabreihenfolge als letztes Element und hat keine Funktion." />
+				</subpart>
+				<subpart elementId="poc.browserpart.browser" defaultTabAction="true" />
+			</part>
+			<part elementId="poc.imprint.options" label="Optionen">
+				<subpart elementId="poc.options.actions">
+					<widget elementId="poc.options.actions.btnbigger" accessibleName="Schrift vergrössern" defaultElement="true" />
+					<widget elementId="poc.options.actions.btnsmaller" accessibleName="Schrift verkleinern" />
+				</subpart>
+			</part>	
+		</perspective>
+	</perspectivestack>
+	<trimbars>
+		<toolbar elementId="poc.toolbar" defaultElement="true">
+			<handledtoolitem elementId="poc.handledtoolitem.home" tooltip="Einleitung" defaultElement="true" />
+			<handledtoolitem elementId="poc.handledtoolitem.content" tooltip="Übersichts und Lesebereich" />
+			<handledtoolitem elementId="poc.handledtoolitem.imprint" tooltip="Angaben zur Urheberschaft" />
+		</toolbar>
+	</trimbars>
+</accessible>		 

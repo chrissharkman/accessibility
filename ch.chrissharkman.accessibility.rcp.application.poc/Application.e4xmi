@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_1uOhUAoDEeWAZunbzVuCpQ" elementId="org.eclipse.e4.ide.application" bindingContexts="_5CW78BcyEeWDo95UgAOjKw">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_1uOhUQoDEeWAZunbzVuCpQ" elementId="ch.chrissharkman.accessibility.rcp.application.trimmed.main" selectedElement="_1uOhcAoDEeWAZunbzVuCpQ" label="Accessibility – Proof of Concept" tooltip="" bindingContexts="_5CW78BcyEeWDo95UgAOjKw">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_1uOhcAoDEeWAZunbzVuCpQ" selectedElement="_EognkBEQEeWjYrg75Oc0Ww">
+      <children xsi:type="advanced:Perspective" xmi:id="_1uOhcQoDEeWAZunbzVuCpQ" elementId="poc.perspective.main" label="mainPerspective" tooltip="Hauptperspektive">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_1uOhcgoDEeWAZunbzVuCpQ" elementId="ch.chrissharkman.accessibility.rcp.application.partsash.mainsplit" containerData="" accessibilityPhrase="" selectedElement="_1uOhcwoDEeWAZunbzVuCpQ" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_1uOhcwoDEeWAZunbzVuCpQ" elementId="poc.partstack.overview" containerData="1280" accessibilityPhrase="" selectedElement="_1uOhdAoDEeWAZunbzVuCpQ">
+            <children xsi:type="basic:Part" xmi:id="_1uOhdAoDEeWAZunbzVuCpQ" elementId="poc.partstack.overview.index" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.parts.IndexViewPart" label="Index"/>
+            <children xsi:type="basic:Part" xmi:id="_zi-uUAqeEeWPSNSDPFyzGw" elementId="poc.partstack.overview.widgets" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.parts.WidgetViewPart" label="Widgets"/>
+          </children>
+          <children xsi:type="basic:Part" xmi:id="_sDlIEAqfEeWPSNSDPFyzGw" elementId="poc.main.browserpart" containerData="2000" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.parts.BrowserViewPart" label="Browser mit Erklärungsinhalt">
+            <properties key="actualContent" value="content/content.html"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_EognkBEQEeWjYrg75Oc0Ww" elementId="poc.perspective.home" label="HomeBrowser" tooltip="Einstiegsseite">
+        <children xsi:type="basic:Part" xmi:id="_OjjUYBEQEeWjYrg75Oc0Ww" elementId="poc.home.browserpart" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.parts.BrowserViewPart" label="Browser Bereich mit Toolbar">
+          <properties key="actualContent" value="content/home.html"/>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_XkSTsBNCEeWAMqWq4duTJQ" elementId="poc.perspective.imprint" label="ImprintBrowser" tooltip="Impressum">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_gl3sUClkEeWK-sPTUKLhtQ" elementId="ch.chrissharkman.accessibility.rcp.application.poc.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:Part" xmi:id="_cFDJIBNCEeWAMqWq4duTJQ" elementId="poc.imprint.browserpart" containerData="2500" accessibilityPhrase="Browser AccessPhrase" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.parts.BrowserViewPart" label="Browser mit Impressum" tooltip="Browser Tooltip">
+            <properties key="actualContent" value="content/imprint.html"/>
+          </children>
+          <children xsi:type="basic:Part" xmi:id="_j-Lr8ClkEeWK-sPTUKLhtQ" elementId="poc.imprint.options" containerData="500" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.parts.OptionsViewPart" label="Optionen"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_1uOhaQoDEeWAZunbzVuCpQ" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_1uOhagoDEeWAZunbzVuCpQ" label="Datei" mnemonics="">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_1uOhbQoDEeWAZunbzVuCpQ" label="Beenden" command="_1uOhXAoDEeWAZunbzVuCpQ"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_-B8yEA3UEeWePYAYr7nMUw" elementId="ch.chrissharkman.accessibility.rcp.application.poc.menu.menulabeledit" label="Bearbeiten" mnemonics="">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_TWi7oA3WEeWePYAYr7nMUw" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handledmenuitem.menulabelcopy" label="Kopieren" mnemonics="" command="_kMHaQBNrEeWAMqWq4duTJQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_U8-hwBMXEeWQp-EEhZSpfA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handledmenuitem.klonen" label="Markieren" mnemonics="" command="_kMHaQBNrEeWAMqWq4duTJQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_hUZKYBMXEeWQp-EEhZSpfA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handledmenuitem.notizsetzen" label="Notiz setzen" command="_kMHaQBNrEeWAMqWq4duTJQ"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_3oze0A69EeWQTdHO-vDOMQ" elementId="ch.chrissharkman.accessibility.rcp.application.poc.menu.navigation" label="Navigation">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_l88C0BMXEeWQp-EEhZSpfA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handledmenuitem.home" label="Home" command="_1ah70BTQEeWV04WEEyB5LA">
+          <parameters xmi:id="_B0CP4BpHEeWzwL-l5kSTjg" elementId="ch.chrissharkman.accessibility.rcp.application.poc.parameter.6" name="contentparameter" value="home"/>
+        </children>
+        <children xsi:type="menu:Menu" xmi:id="_bXB-oBMYEeWQp-EEhZSpfA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.menu.inhaltsansicht" label="Inhaltsansicht">
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_hJIgIBMYEeWQp-EEhZSpfA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handledmenuitem.index" label="Index" command="_1ah70BTQEeWV04WEEyB5LA">
+            <parameters xmi:id="_VegPYBpHEeWzwL-l5kSTjg" elementId="ch.chrissharkman.accessibility.rcp.application.poc.parameter.10" name="contentparameter" value="main"/>
+          </children>
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_iyttEBMYEeWQp-EEhZSpfA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handledmenuitem.widgets" label="Widgets" command="_1ah70BTQEeWV04WEEyB5LA">
+            <parameters xmi:id="_TmHxcBpHEeWzwL-l5kSTjg" elementId="ch.chrissharkman.accessibility.rcp.application.poc.parameter.9" name="contentparameter" value="main"/>
+          </children>
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_j3xQoBMYEeWQp-EEhZSpfA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handledmenuitem.browser" label="Browser" command="_1ah70BTQEeWV04WEEyB5LA">
+            <parameters xmi:id="_RYmJ8BpHEeWzwL-l5kSTjg" elementId="ch.chrissharkman.accessibility.rcp.application.poc.parameter.8" name="contentparameter" value="main"/>
+          </children>
+        </children>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_XrhWMBMYEeWQp-EEhZSpfA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handledmenuitem.impressum" label="Impressum" command="_1ah70BTQEeWV04WEEyB5LA">
+          <parameters xmi:id="_HzR1gBpHEeWzwL-l5kSTjg" elementId="ch.chrissharkman.accessibility.rcp.application.poc.parameter.7" name="contentparameter" value="imprint"/>
+        </children>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_1uOhbgoDEeWAZunbzVuCpQ" label="Hilfe" mnemonics="">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_1uOhbwoDEeWAZunbzVuCpQ" label="Über" command="_1ah70BTQEeWV04WEEyB5LA">
+          <parameters xmi:id="_1MrQkBTREeWV04WEEyB5LA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.parameter.3" name="contentparameter" value="imprint"/>
+        </children>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_1uOhdQoDEeWAZunbzVuCpQ" elementId="ch.chrissharkman.accessibility.rcp.trim.left" accessibilityPhrase="" side="Left">
+      <children xsi:type="menu:ToolBar" xmi:id="_1uOhdgoDEeWAZunbzVuCpQ" elementId="poc.toolbar" accessibilityPhrase="">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QB8sYA6cEeWQTdHO-vDOMQ" elementId="poc.handledtoolitem.home" accessibilityPhrase="" label="Home" iconURI="platform:/plugin/ch.chrissharkman.accessibility.rcp.application.poc/icons/icon-home-40.png" tooltip="Browseransicht mit Willkommensbildschirm dieser Applikation" command="_1ah70BTQEeWV04WEEyB5LA">
+          <parameters xmi:id="_c9llcBTIEeWV04WEEyB5LA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.parameter.0" name="contentparameter" value="home"/>
+        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Zw9vYA6cEeWQTdHO-vDOMQ" elementId="poc.handledtoolitem.content" accessibilityPhrase="" label="Inhalt" iconURI="platform:/plugin/ch.chrissharkman.accessibility.rcp.application.poc/icons/icon-window-40.png" tooltip="Readeransicht mit Übersichts- und Lesebereich" command="_1ah70BTQEeWV04WEEyB5LA">
+          <parameters xmi:id="_tVaO0BTQEeWV04WEEyB5LA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.parameter.1" name="contentparameter" value="main"/>
+        </children>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_QjbT0AqhEeWPSNSDPFyzGw" elementId="ch.chrissharkman.accessibility.rcp.application.poc.toolbarseparator.0"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rYF-IA6cEeWQTdHO-vDOMQ" elementId="poc.handledtoolitem.imprint" label="Impressum" iconURI="platform:/plugin/ch.chrissharkman.accessibility.rcp.application.poc/icons/icon-paragraph-40.png" tooltip="Informationen zu den Urhebern dieser Anwendung." command="_1ah70BTQEeWV04WEEyB5LA">
+          <parameters xmi:id="_v6NG0BTQEeWV04WEEyB5LA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.parameter.2" name="contentparameter" value="imprint"/>
+        </children>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_1uOhXQoDEeWAZunbzVuCpQ" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handler.quitCommand" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.handlers.QuitHandler" command="_1uOhXAoDEeWAZunbzVuCpQ"/>
+  <handlers xmi:id="_n0WFMBNrEeWAMqWq4duTJQ" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handler.edit" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.handlers.EditHandler" command="_kMHaQBNrEeWAMqWq4duTJQ"/>
+  <handlers xmi:id="_4zIVgBSzEeWfPNR6XGLqFw" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handler.navigatenextpart" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.handlers.NavigationHandler" command="__N9yUBSwEeWfPNR6XGLqFw"/>
+  <handlers xmi:id="_9ZPe0BTQEeWV04WEEyB5LA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.handler.perspective" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.handlers.PerspectiveHandler" command="_1ah70BTQEeWV04WEEyB5LA"/>
+  <bindingTables xmi:id="_1uOhXgoDEeWAZunbzVuCpQ" elementId="poc" bindingContext="_5CW78BcyEeWDo95UgAOjKw">
+    <bindings xmi:id="_KOA5QCoDEeWyr59NQSa2fw" elementId="ch.chrissharkman.accessibility.rcp.application.poc.keybinding.0" keySequence="M1+1" command="_kMHaQBNrEeWAMqWq4duTJQ">
+      <tags>type:user</tags>
+    </bindings>
+  </bindingTables>
+  <rootContext xmi:id="_5CW78BcyEeWDo95UgAOjKw" elementId="ch.chrissharkman.accessibility.rcp.application.poc.bindingcontext.main" name="pocMain" description="Main binding context for Accessibility Proof of Concept"/>
+  <commands xmi:id="_1uOhXAoDEeWAZunbzVuCpQ" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_kMHaQBNrEeWAMqWq4duTJQ" elementId="ch.chrissharkman.accessibility.rcp.application.poc.command.editcommand" commandName="editCommand"/>
+  <commands xmi:id="__N9yUBSwEeWfPNR6XGLqFw" elementId="ch.chrissharkman.accessibility.rcp.application.poc.command.navigatecommand" commandName="navigateCommand" description="All commands to navigate with tab and ctrl+tab">
+    <parameters xmi:id="_30EQ8Bc_EeWDo95UgAOjKw" elementId="keyparameter" name="keyparameter"/>
+  </commands>
+  <commands xmi:id="_1ah70BTQEeWV04WEEyB5LA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.command.perspectivecommand" commandName="perspectiveCommand">
+    <parameters xmi:id="_3lO40BTQEeWV04WEEyB5LA" elementId="contentparameter" name="contentparameter"/>
+  </commands>
+  <addons xmi:id="_DPvmkB_yEeWSiqpF_gqYqg" elementId="ch.chrissharkman.accessibility.rcp.application.poc.addon.2" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.application.poc/ch.chrissharkman.accessibility.rcp.application.poc.Activator"/>
+  <addons xmi:id="_1uOhUgoDEeWAZunbzVuCpQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_1uOhUwoDEeWAZunbzVuCpQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_1uOhVAoDEeWAZunbzVuCpQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_1uOhVQoDEeWAZunbzVuCpQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_1uOhVgoDEeWAZunbzVuCpQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_1uOhVwoDEeWAZunbzVuCpQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_1uOhWAoDEeWAZunbzVuCpQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_SA0ukCFNEeWJGufaZWXeIQ" elementId="ch.chrissharkman.accessibility.rcp.application.poc.addon.0" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.base/ch.chrissharkman.accessibility.rcp.base.AccessibleManager">
+    <persistedState key="traverseNavigationEnabled" value="true"/>
+    <persistedState key="partJumpNavigationEnabled" value="true"/>
+    <persistedState key="structureBundleName" value="ch.chrissharkman.accessibility.rcp.application.poc"/>
+    <persistedState key="structureResourcePath" value="accessible/poc-accessible-properties.xml"/>
+    <persistedState key="accessibleExtensionBundleName"/>
+    <persistedState key="accessibleExtensionCanonicalClassName"/>
+  </addons>
+  <addons xmi:id="_se6CYCG6EeWrRcBn-Wi6VA" elementId="ch.chrissharkman.accessibility.rcp.application.poc.addon.1" contributionURI="bundleclass://ch.chrissharkman.accessibility.rcp.base/ch.chrissharkman.accessibility.rcp.base.ViewMediator"/>
+</application:Application>

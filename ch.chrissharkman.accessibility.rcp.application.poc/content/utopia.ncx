@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="de">
+<head>
+  <meta content="1ec69256-0a78-11e5-aeb3-4c72b9252ec6" name="dtb:uid"/>
+  <meta content="2" name="dtb:depth"/>
+  <meta content="0" name="dtb:totalPageCount"/>
+  <meta content="0" name="dtb:maxPageNumber"/>
+</head>
+  <docTitle>
+    <text>Utopia</text>
+  </docTitle>
+  <docAuthor>
+    <text>Morus, Thomas</text>
+  </docAuthor>
+  <navMap>
+    <navPoint class="titlepage" id="level1-titlepage" playOrder="1">
+      <navLabel>
+        <text>Titel</text>
+      </navLabel>
+      <content src="Text/title.xml"/>
+    </navPoint>
+    <navPoint class="about" id="level1-about" playOrder="2">
+      <navLabel>
+        <text>Über</text>
+      </navLabel>
+      <content src="Text/about.xml"/>
+    </navPoint>
+    <navPoint class="section" id="sec659293" playOrder="3">
+      <navLabel>
+        <text>Vorrede</text>
+      </navLabel>
+      <content src="Text/main0.xml"/>
+      <navPoint class="section" id="sec659300" playOrder="4">
+        <navLabel>
+          <text>Zu dem Werke über den Besten Zustand des Staates</text>
+        </navLabel>
+        <content src="Text/main0.xml#section_659300"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="part" id="part659278" playOrder="5">
+      <navLabel>
+        <text>Teil 1</text>
+      </navLabel>
+      <content src="Text/main1.xml"/>
+      <navPoint class="section" id="sec659292" playOrder="6">
+        <navLabel>
+          <text>Rede des trefflichen Raphael Hythlodeus über den besten Zustand des Staates, veröffentlicht von dem erlauchten Thomas Morus, Bürger und Vicecomes der rühmlich bekannten britischen Haupstadt London.</text>
+        </navLabel>
+        <content src="Text/main2.xml#section_659292"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="part" id="part659279" playOrder="7">
+      <navLabel>
+        <text>Teil 2</text>
+      </navLabel>
+      <content src="Text/main3.xml"/>
+      <navPoint class="section" id="sec659283" playOrder="8">
+        <navLabel>
+          <text>Des Raphael Hythlodeus Rede über den besten Zustand des Staates</text>
+        </navLabel>
+        <content src="Text/main4.xml#section_659283"/>
+      </navPoint>
+      <navPoint class="section" id="sec659284" playOrder="9">
+        <navLabel>
+          <text>Die Städte, namentlich Amaurotum</text>
+        </navLabel>
+        <content src="Text/main5.xml#section_659284"/>
+      </navPoint>
+      <navPoint class="section" id="sec659285" playOrder="10">
+        <navLabel>
+          <text>Die Obrigkeiten</text>
+        </navLabel>
+        <content src="Text/main6.xml#section_659285"/>
+      </navPoint>
+      <navPoint class="section" id="sec659286" playOrder="11">
+        <navLabel>
+          <text>Die Handwerke</text>
+        </navLabel>
+        <content src="Text/main7.xml#section_659286"/>
+      </navPoint>
+      <navPoint class="section" id="sec659287" playOrder="12">
+        <navLabel>
+          <text>Der Verkehr der Utopier miteinander</text>
+        </navLabel>
+        <content src="Text/main8.xml#section_659287"/>
+      </navPoint>
+      <navPoint class="section" id="sec659288" playOrder="13">
+        <navLabel>
+          <text>Die Reisen der Utopier</text>
+        </navLabel>
+        <content src="Text/main9.xml#section_659288"/>
+      </navPoint>
+      <navPoint class="section" id="sec659289" playOrder="14">
+        <navLabel>
+          <text>Die Sklaven</text>
+        </navLabel>
+        <content src="Text/main10.xml#section_659289"/>
+      </navPoint>
+      <navPoint class="section" id="sec659290" playOrder="15">
+        <navLabel>
+          <text>Das Kriegswesen</text>
+        </navLabel>
+        <content src="Text/main11.xml#section_659290"/>
+      </navPoint>
+      <navPoint class="section" id="sec659291" playOrder="16">
+        <navLabel>
+          <text>Die Religion der Utopier</text>
+        </navLabel>
+        <content src="Text/main12.xml#section_659291"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

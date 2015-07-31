@@ -1,0 +1,61 @@
+/* Tested to make focus wider or more prominet
+
+Control:active {
+	outline: 1px solid red;
+}	
+
+Control {
+	background-color: yellow;
+}
+
+.myClass {
+	background-color: #FFffaa;
+	border: 1px solid green;
+}
+
+.myClass:checked {
+	background-color: #FF00aa;
+	outline: 1px solid red;
+	font-size: 22px;
+}		
+
+CTabFolder {
+	swt-outer-keyline-color: #00a3b1;
+}
+
+Label {
+	color: rgb(255,0,0);
+}
+
+Widget {
+	color: rgb(0,255,0);
+}	
+
+*/
+
+/* 
+
+Shell {
+	cursor:crosshair
+}	
+
+Composite {
+	background-color: green;
+}
+
+Control {
+	background-color: yellow;	
+}
+
+Label {
+	color: rgb(255,0,0);
+}
+
+Button {
+	display: block;
+	width: 300px;
+	height: 300px;	
+	background-color: blue;
+}
+
+*/

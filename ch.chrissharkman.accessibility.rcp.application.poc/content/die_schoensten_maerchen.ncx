@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="deu">
+  <head>
+    <meta content="1f0d1108-fbdd-4c90-980e-31ed7e81de1f" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (2.16.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Die schönsten Märchen</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="u53be08e2-2d2f-4eb0-bccd-c51b567903ce" playOrder="1">
+      <navLabel>
+        <text>Impressum</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_000.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u3bd937f5-81ca-4e81-be4c-3837f47ba61b" playOrder="2">
+      <navLabel>
+        <text>Schneeweißchen</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_001.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u5cb382b3-c8b5-4edf-b5d9-aabc12849d88" playOrder="3">
+      <navLabel>
+        <text>Das Dornröschen</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_002.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u797e9444-9df1-456f-92cb-5394fd79dd20" playOrder="4">
+      <navLabel>
+        <text>Goldener</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_003.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u4a3d0477-8eb2-4439-8ceb-db219b1c281f" playOrder="5">
+      <navLabel>
+        <text>Des kleinen Hirten Glückstraum</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_004.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u8b5c7b8a-0eeb-4da0-a454-927a3e22c320" playOrder="6">
+      <navLabel>
+        <text>Des Königs Münster</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_005.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u731f2c5e-9642-4863-931c-ef10ef0d5f17" playOrder="7">
+      <navLabel>
+        <text>Die Hexe und die Königskinder</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_006.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u5edc1fa6-398d-4524-b362-a6a9416caf0d" playOrder="8">
+      <navLabel>
+        <text>Der Mönch und das Vögelein</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_007.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u61a9e2b3-ab6f-4a38-8dc5-f41e48baf67c" playOrder="9">
+      <navLabel>
+        <text>Zwergenmützchen</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_008.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u884db8e8-3f36-410f-be40-b52c3e568ca0" playOrder="10">
+      <navLabel>
+        <text>Des Hundes Not</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_009.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u1d5e2013-b604-4e25-995b-aacea0a9efd2" playOrder="11">
+      <navLabel>
+        <text>Die drei Hunde</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_010.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ub5bba524-ede7-4df3-b846-e21bfea45337" playOrder="12">
+      <navLabel>
+        <text>Die drei Wünsche</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_011.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u16771549-679d-4107-8b30-a672f6dc7f73" playOrder="13">
+      <navLabel>
+        <text>Die Kuhhirten</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_012.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u5b02362a-46de-4041-8ba8-ea3b1d0a4401" playOrder="14">
+      <navLabel>
+        <text>Das Unentbehrlichste</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_013.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u89899993-0d4b-4d15-b6c4-1b00433918b3" playOrder="15">
+      <navLabel>
+        <text>Schwan, kleb an</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_014.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u600f55ae-10d5-4a63-8a13-d0e8ddf82205" playOrder="16">
+      <navLabel>
+        <text>Die sieben Schwanen</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_015.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u9a5e6919-b9f6-4d21-87c7-423335b7e82b" playOrder="17">
+      <navLabel>
+        <text>Der Fischkönig</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_016.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ua83b1346-05c6-474c-b2b2-6972775ca61b" playOrder="18">
+      <navLabel>
+        <text>Die goldene Schäferei</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_017.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u78a27482-3540-49bd-91ed-08c3feed5a2f" playOrder="19">
+      <navLabel>
+        <text>Schab den Rüssel</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_018.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ue528d676-9db1-443f-9c5d-685f70b3d235" playOrder="20">
+      <navLabel>
+        <text>Der fromme Ritter</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_019.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ud4628494-0781-4909-bbe9-7f5f75f17ce8" playOrder="21">
+      <navLabel>
+        <text>Das Mäuslein Sambar oder Die treue Freundschaft der Tiere</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_020.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u9ee45682-213f-47ab-9f4d-2d429d59fb4d" playOrder="22">
+      <navLabel>
+        <text>Der Mann und die Schlange</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_021.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u06144d3b-8520-4055-9857-4e9c585f0f17" playOrder="23">
+      <navLabel>
+        <text>Der Hahn und der Fuchs</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_022.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ue4dc96dd-24f1-4d2e-b3fa-7ac8da1c9e43" playOrder="24">
+      <navLabel>
+        <text>Die Lebensgeschichte der Maus Sambar</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_023.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u68882adf-8173-41b7-a2a9-07ac4571184c" playOrder="25">
+      <navLabel>
+        <text>Zitterinchen</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_024.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u5dfb80f0-c1f6-4d42-a356-904393d267fe" playOrder="26">
+      <navLabel>
+        <text>Die drei Gaben</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_025.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="uf0c21d8c-ca4d-43d0-9cc0-d645163e7a44" playOrder="27">
+      <navLabel>
+        <text>Gott Überall</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_026.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u54d33c13-312d-4e88-b91d-687b7b9858c6" playOrder="28">
+      <navLabel>
+        <text>Die Knaben mit den goldnen Sternlein</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_027.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u53f72c3a-02be-4eb5-a235-af108fbf9443" playOrder="29">
+      <navLabel>
+        <text>Der wandernde Stab</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_028.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ucdaefb63-f5bd-4797-80fb-e6bea39059ff" playOrder="30">
+      <navLabel>
+        <text>Die Wünschdinger</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_029.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u78e8342e-79bf-45e8-8f1d-05ca368e019d" playOrder="31">
+      <navLabel>
+        <text>Das blaue Flämmchen</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_030.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u26814835-943c-4caa-b4d9-e8f6416898b1" playOrder="32">
+      <navLabel>
+        <text>Undank ist der Welt Lohn</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_031.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ub0fc464e-a3e2-4e23-a7fd-3127e4b3a3ac" playOrder="33">
+      <navLabel>
+        <text>Der Wacholderbaum</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_032.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u3fbebdff-e972-47e4-ae5e-1ee1ed7c0eb2" playOrder="34">
+      <navLabel>
+        <text>Der weiße Wolf</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_033.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="uafccb7d4-ff43-414f-b892-d858a2a5115f" playOrder="35">
+      <navLabel>
+        <text>Bruder Sparer und Bruder Vertuer</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_034.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u9a54de3a-6749-4f7e-b561-2396dc9d9f50" playOrder="36">
+      <navLabel>
+        <text>Goldhähnchen</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_035.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u2e6906cb-2571-4fdb-99dc-bf7e6e943bdd" playOrder="37">
+      <navLabel>
+        <text>Das Märchen vom Ritter Blaubart</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_036.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ubaada7c8-7f95-4dba-92e7-2e9650ee8395" playOrder="38">
+      <navLabel>
+        <text>Die drei dummen Teufel</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_037.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u82858e34-78c2-45de-b839-1e034b3d4320" playOrder="39">
+      <navLabel>
+        <text>Die dankbaren Tiere</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_038.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ub5bf685b-2dc8-4f65-8d58-790d68877af2" playOrder="40">
+      <navLabel>
+        <text>Die vier klugen Gesellen</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_039.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u91518330-d5a1-4cfe-9f9b-4f743cf445a7" playOrder="41">
+      <navLabel>
+        <text>Rupert, der Bärenhäuter</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_040.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ucbad1930-5d6d-4d25-a066-ff717abb114c" playOrder="42">
+      <navLabel>
+        <text>Vogel Holgott und Vogel Mosam</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_041.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u04acdcef-2b9a-46f4-b736-011602deb954" playOrder="43">
+      <navLabel>
+        <text>Von zwei Affen</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_042.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u7b9f2d2f-6227-4406-b5c6-0fd80c2b0f14" playOrder="44">
+      <navLabel>
+        <text>Von dem Wolf und den Maushunden</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_043.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u93380f4f-4c67-4c99-a326-90706944292e" playOrder="45">
+      <navLabel>
+        <text>Die Katze und die Maus</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_044.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u538e1a71-0ff3-47ce-8819-a7feea950f18" playOrder="46">
+      <navLabel>
+        <text>Das Rebhuhn</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_045.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="uc2840415-8bbf-4e0b-b060-13d510098676" playOrder="47">
+      <navLabel>
+        <text>Der fette Lollus und der magere Lollus</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_046.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u1a769731-e9bc-47f4-b90f-aa7de874dc56" playOrder="48">
+      <navLabel>
+        <text>Die Adler und die Raben</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_047.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u9c4e94cf-8696-4618-865e-41df18b268a1" playOrder="49">
+      <navLabel>
+        <text>Vom Hasen und dem Elefantenkönige</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_048.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u57896f47-9765-4c40-a1de-3a5cd994798d" playOrder="50">
+      <navLabel>
+        <text>Von einem Hasen und einem Vogel</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_049.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u8f82b333-c85c-460f-b7e8-05ef22bb326b" playOrder="51">
+      <navLabel>
+        <text>Von einem Einsiedel und drei Gaunern</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_050.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ue521c0ee-8b3c-44cf-8aa9-7ebab25fcf58" playOrder="52">
+      <navLabel>
+        <text>Der listige Rabe</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_051.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u214802fd-6a35-40b6-99d5-1d60a56f7e6f" playOrder="53">
+      <navLabel>
+        <text>Der Dieb und der Teufel</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_052.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u02d5d84e-8842-4ff6-9c7f-459e0ad511a4" playOrder="54">
+      <navLabel>
+        <text>Die verwandelte Maus</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_053.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="u8198199d-22eb-4148-bf95-7124c5d78dcf" playOrder="55">
+      <navLabel>
+        <text>Der Raben Arglist und Rache</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_054.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ueccdb17c-1801-41ee-a696-041011ad9ede" playOrder="56">
+      <navLabel>
+        <text>Die beiden Brüder</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_055.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="uddf36711-4a18-4061-ad32-025093950232" playOrder="57">
+      <navLabel>
+        <text>Das Dukaten-Angele</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_056.htm"/>
+    </navPoint>
+    <navPoint class="chapter" id="ubae909f2-8d47-4386-87fd-058ae73d301d" playOrder="58">
+      <navLabel>
+        <text>Die scharfe Schere</text>
+      </navLabel>
+      <content src="Text/bechstein-schoenma_split_057.htm"/>
+    </navPoint>
+  </navMap>
+</ncx>

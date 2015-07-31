@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="Accessibility Proof of Concept"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="Accessibility Proof of Concept">
+         </property>
+          <property
+               name="applicationCSS"
+               value="platform:/plugin/ch.chrissharkman.accessibility.rcp.application.poc/css/default.css">
+         </property>
+      </product>
+   </extension>
+   
+   <extension
+   		point="org.eclipse.ui.handlers">
+   </extension>			
+   <extension
+         point="org.eclipse.ui.commands">
+   </extension>
+   <extension
+   		point="org.eclipse.ui.bindings">
+   </extension>			
+
+</plugin>
